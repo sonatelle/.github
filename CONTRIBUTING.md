@@ -56,7 +56,7 @@ Guidelines:
 - Use a body when the reason, tradeoff, or risk is not obvious.
 - Do not claim support or behavior that is not implemented.
 - Do not commit unrelated local changes.
-- Agent-assisted work must not create commits until the user has explicitly approved committing.
+- Agent-assisted work must not create commits until the proposed commit message has been shown to the user and explicitly approved.
 
 ## Pull Requests
 
