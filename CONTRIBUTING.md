@@ -69,6 +69,12 @@ Pull requests should explain:
 
 Prefer small pull requests. If a change needs broad restructuring, split preparatory cleanup from behavior changes where practical.
 
+Merge completed work through a pull request rather than a local merge into a long-lived branch, even for solo development.
+
+- Use GitHub `Rebase and merge` by default. Use `Squash and merge` only to collapse noisy work-in-progress commits.
+- Long-lived branches may include `main`, `develop`, `release/*`, and `stable`. Keep them stable for their purpose and do not use them for active feature work.
+- Delete short-lived branches after merge.
+
 ## Verification
 
 Run the checks that match the files changed. If a check cannot be run, say why in the pull request.
